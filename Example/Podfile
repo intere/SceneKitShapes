@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SceneKitShapes_Example' do
+  pod 'SceneKitShapes', :path => '../'
+
+  target 'SceneKitShapes_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
