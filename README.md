@@ -1,6 +1,6 @@
 # SceneKitShapes
 
-[![CI Status](https://img.shields.io/travis/Eric Internicola/SceneKitShapes.svg?style=flat)](https://travis-ci.org/Eric Internicola/SceneKitShapes)
+[![CI Status](https://img.shields.io/travis/intere/SceneKitShapes.svg?style=flat)](https://travis-ci.org/intere/SceneKitShapes)
 [![Version](https://img.shields.io/cocoapods/v/SceneKitShapes.svg?style=flat)](https://cocoapods.org/pods/SceneKitShapes)
 [![License](https://img.shields.io/cocoapods/l/SceneKitShapes.svg?style=flat)](https://cocoapods.org/pods/SceneKitShapes)
 [![Platform](https://img.shields.io/cocoapods/p/SceneKitShapes.svg?style=flat)](https://cocoapods.org/pods/SceneKitShapes)
