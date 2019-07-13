@@ -1,0 +1,982 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024697FC625090F58A94BC27A34CE97D /* SceneKitShapes-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D21FD4DF6A187957635FA9AD17F5466A /* SceneKitShapes-iOS-dummy.m */; };
+		0AC7F86EFA54881B1DE14635FB891380 /* SCNArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFE673923DD61A353FBA5593F3C9D9D /* SCNArrow.swift */; };
+		10E7EAC436225DCA56BF70B024982CF1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50023DA0A9C727AFC307DCB57AE6AC4 /* Cocoa.framework */; };
+		26EDC041F27D63E653FBB424CFB76B35 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB9FD15E69D48776662F15F1AEC8AE0 /* SceneKit.framework */; };
+		333D2AA1997732297ED9E0E706176C1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3B23AA1EBB2DA857FAD3FCE663C378 /* Foundation.framework */; };
+		4C2D7125C3D78D71B83D355FF41AC293 /* SceneKitShapes-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA82FDD2CE45490E25936C6AE1998D11 /* SceneKitShapes-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60B243706B0E28C8B7EBF12FAE10CF6F /* SCNArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFE673923DD61A353FBA5593F3C9D9D /* SCNArrow.swift */; };
+		7E07CBE7B3F25D52B53EE38B5BAB4FDD /* Pods-SceneKitShapes_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7967AFA54F31F84702E88FCC5720F0 /* Pods-SceneKitShapes_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9642E05272E3026EB090AFEE876E5DA5 /* Pods-SceneKitShapes_MacOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 133B9676889538BB066B992AD3FA284F /* Pods-SceneKitShapes_MacOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		966EBF21E0BD8FBC0F6B624AE351A983 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC0E7ACA4F05CF74DB7F2683B1D155 /* ReplaceMe.swift */; };
+		9A5F65AE2E8553E6870522BBF86BA6D7 /* SceneKitShapes-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D0058DC40D722E1568576A3C7E2FFD /* SceneKitShapes-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C75C82A61AF0B5323060186A53F07AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3B23AA1EBB2DA857FAD3FCE663C378 /* Foundation.framework */; };
+		9FABE6DA0D26D8219DDD104A026C57B1 /* SceneKitShapes-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D9800B94B55943AD4DBF6BC7DBB6B2 /* SceneKitShapes-macOS-dummy.m */; };
+		A4E44575CB02CCBA2026A0C7619E8DC7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC0E7ACA4F05CF74DB7F2683B1D155 /* ReplaceMe.swift */; };
+		D0A4FFFFAE08699BD5A0432744ABBA7F /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CDCC02D87A69349751C3283FAC133F /* SceneKit.framework */; };
+		D2022C636689EF1CA6CDCBBFEADDF9CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50023DA0A9C727AFC307DCB57AE6AC4 /* Cocoa.framework */; };
+		F33843A2B8B8789FF9FFEFC79B7A2D2B /* Pods-SceneKitShapes_MacOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC5E51C178F6A3890C7B9983EEBB04 /* Pods-SceneKitShapes_MacOS-dummy.m */; };
+		F81F53B0D1A824E4622D985F95DE4D11 /* Pods-SceneKitShapes_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDE78BE2E3244D8C6BC09194FA5B560 /* Pods-SceneKitShapes_iOS-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F2BCE25F3401F9839B8226A3B98AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D6805B5AEA13CE21DE99DEB8E64E9F;
+			remoteInfo = "SceneKitShapes-macOS";
+		};
+		6451FE488B5AE2C4FD7A8CA0491F13FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D023114A24BEA6A7107C48FBF474EEFE;
+			remoteInfo = "SceneKitShapes-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08506266EC78BBBEE849BD0F38FA739A /* Pods_SceneKitShapes_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SceneKitShapes_MacOS.framework; path = "Pods-SceneKitShapes_MacOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A250BC6D541D303344BAB2C2D61F782 /* SceneKitShapes-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SceneKitShapes-iOS.modulemap"; sourceTree = "<group>"; };
+		0AB613A712A1EBF6103D669D39E19C78 /* SceneKitShapes-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SceneKitShapes-macOS.modulemap"; path = "../SceneKitShapes-macOS/SceneKitShapes-macOS.modulemap"; sourceTree = "<group>"; };
+		0E4D5E7B4CDFE51DD0FA45870A2818F5 /* Pods-SceneKitShapes_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SceneKitShapes_iOS-Info.plist"; sourceTree = "<group>"; };
+		0ECC0E7ACA4F05CF74DB7F2683B1D155 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Sources/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		12DB140AE0B804DC0073598172251840 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		133B9676889538BB066B992AD3FA284F /* Pods-SceneKitShapes_MacOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SceneKitShapes_MacOS-umbrella.h"; sourceTree = "<group>"; };
+		1A393DAE77DAA9C134818A2B057FDC2E /* SceneKitShapes-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SceneKitShapes-iOS-Info.plist"; sourceTree = "<group>"; };
+		1AFA376832AAEAAA7124235A13C937FB /* Pods-SceneKitShapes_MacOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SceneKitShapes_MacOS-frameworks.sh"; sourceTree = "<group>"; };
+		1EDE78BE2E3244D8C6BC09194FA5B560 /* Pods-SceneKitShapes_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SceneKitShapes_iOS-dummy.m"; sourceTree = "<group>"; };
+		2BFE673923DD61A353FBA5593F3C9D9D /* SCNArrow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCNArrow.swift; path = Sources/Classes/SCNArrow.swift; sourceTree = "<group>"; };
+		2C62B8E832D53BE6EADEE8CF081D3B86 /* SceneKitShapes-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SceneKitShapes-iOS-prefix.pch"; sourceTree = "<group>"; };
+		2EAFC9C0E76E4154141428C99E240B68 /* Pods-SceneKitShapes_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SceneKitShapes_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31A78D49E49F87D9FEAB521937F5E9D1 /* Pods-SceneKitShapes_MacOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SceneKitShapes_MacOS.modulemap"; sourceTree = "<group>"; };
+		3C7967AFA54F31F84702E88FCC5720F0 /* Pods-SceneKitShapes_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SceneKitShapes_iOS-umbrella.h"; sourceTree = "<group>"; };
+		3F3B23AA1EBB2DA857FAD3FCE663C378 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		440BF7A49B9C3640D1ECFBBC10FEA7AA /* SceneKitShapes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SceneKitShapes.framework; path = "SceneKitShapes-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A476F6560CD82EB5A18EB02FD44E016 /* Pods-SceneKitShapes_MacOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SceneKitShapes_MacOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EAC5E51C178F6A3890C7B9983EEBB04 /* Pods-SceneKitShapes_MacOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SceneKitShapes_MacOS-dummy.m"; sourceTree = "<group>"; };
+		543D2949A7E96D147E511FA28681AA9D /* Pods-SceneKitShapes_MacOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SceneKitShapes_MacOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C65612BCBCC91B3AD6B797CF5DF2E58 /* SceneKitShapes-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SceneKitShapes-macOS.xcconfig"; path = "../SceneKitShapes-macOS/SceneKitShapes-macOS.xcconfig"; sourceTree = "<group>"; };
+		5F5C6067843252454F3BA6356889A71C /* SceneKitShapes-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SceneKitShapes-macOS-Info.plist"; path = "../SceneKitShapes-macOS/SceneKitShapes-macOS-Info.plist"; sourceTree = "<group>"; };
+		60D9800B94B55943AD4DBF6BC7DBB6B2 /* SceneKitShapes-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SceneKitShapes-macOS-dummy.m"; path = "../SceneKitShapes-macOS/SceneKitShapes-macOS-dummy.m"; sourceTree = "<group>"; };
+		66D0058DC40D722E1568576A3C7E2FFD /* SceneKitShapes-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SceneKitShapes-macOS-umbrella.h"; path = "../SceneKitShapes-macOS/SceneKitShapes-macOS-umbrella.h"; sourceTree = "<group>"; };
+		6FB9FD15E69D48776662F15F1AEC8AE0 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/SceneKit.framework; sourceTree = DEVELOPER_DIR; };
+		7DABA8255B12B00A2D34A03CB7710449 /* Pods-SceneKitShapes_MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SceneKitShapes_MacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		803A564E0DD8D1B936E7B9E88952B8D8 /* SceneKitShapes-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SceneKitShapes-macOS-prefix.pch"; path = "../SceneKitShapes-macOS/SceneKitShapes-macOS-prefix.pch"; sourceTree = "<group>"; };
+		843C4D430AA7BA79E1B891A3AFF2D794 /* SceneKitShapes.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SceneKitShapes.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88010BF244FF1ACA845F9EB003F03A6E /* Pods-SceneKitShapes_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SceneKitShapes_iOS.modulemap"; sourceTree = "<group>"; };
+		886765389B851188C9FC7BD6E2EA7145 /* Pods_SceneKitShapes_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SceneKitShapes_iOS.framework; path = "Pods-SceneKitShapes_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FAC5682E989EA7ED2256EEB7B35A2A /* SceneKitShapes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SceneKitShapes.framework; path = "SceneKitShapes-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D46C5CF6D88D11243FFEC253730EF74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9963F72C769F775CD9DF18135D63453F /* Pods-SceneKitShapes_MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SceneKitShapes_MacOS.release.xcconfig"; sourceTree = "<group>"; };
+		9B4E743590EDC70362F2F8B38976093A /* Pods-SceneKitShapes_MacOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SceneKitShapes_MacOS-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3CDCC02D87A69349751C3283FAC133F /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SceneKit.framework; sourceTree = DEVELOPER_DIR; };
+		B0D20B7B5AEC6DB52DB41373CBED1D50 /* Pods-SceneKitShapes_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SceneKitShapes_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B1F56A95A83F937E2620960009E4AA3E /* Pods-SceneKitShapes_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SceneKitShapes_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B2173C3889F0D28F5730752EC5740291 /* Pods-SceneKitShapes_iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SceneKitShapes_iOS-frameworks.sh"; sourceTree = "<group>"; };
+		D21FD4DF6A187957635FA9AD17F5466A /* SceneKitShapes-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SceneKitShapes-iOS-dummy.m"; sourceTree = "<group>"; };
+		E50023DA0A9C727AFC307DCB57AE6AC4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		F56EAA219C9B0258F3603C4F4786F525 /* SceneKitShapes-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SceneKitShapes-iOS.xcconfig"; sourceTree = "<group>"; };
+		F59EBD8609CDB92AC9159267E8DBCFB0 /* Pods-SceneKitShapes_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SceneKitShapes_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA82FDD2CE45490E25936C6AE1998D11 /* SceneKitShapes-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SceneKitShapes-iOS-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		308421D0C6C56224DD1757C5B1006D5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2022C636689EF1CA6CDCBBFEADDF9CA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0034E3735D81D7FBA5F4882E4BA39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C75C82A61AF0B5323060186A53F07AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA639DC0D9A7BDD6521A6DB9534F6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333D2AA1997732297ED9E0E706176C1F /* Foundation.framework in Frameworks */,
+				D0A4FFFFAE08699BD5A0432744ABBA7F /* SceneKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61EFEB412FFB58E4EC37F216B049C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E7EAC436225DCA56BF70B024982CF1 /* Cocoa.framework in Frameworks */,
+				26EDC041F27D63E653FBB424CFB76B35 /* SceneKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		152C3899C7BC9FAD9A40E924FCB0149C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				886765389B851188C9FC7BD6E2EA7145 /* Pods_SceneKitShapes_iOS.framework */,
+				08506266EC78BBBEE849BD0F38FA739A /* Pods_SceneKitShapes_MacOS.framework */,
+				89FAC5682E989EA7ED2256EEB7B35A2A /* SceneKitShapes.framework */,
+				440BF7A49B9C3640D1ECFBBC10FEA7AA /* SceneKitShapes.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F0ECB90B6038A67833F165080AEC5B4 /* Pods-SceneKitShapes_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				88010BF244FF1ACA845F9EB003F03A6E /* Pods-SceneKitShapes_iOS.modulemap */,
+				2EAFC9C0E76E4154141428C99E240B68 /* Pods-SceneKitShapes_iOS-acknowledgements.markdown */,
+				F59EBD8609CDB92AC9159267E8DBCFB0 /* Pods-SceneKitShapes_iOS-acknowledgements.plist */,
+				1EDE78BE2E3244D8C6BC09194FA5B560 /* Pods-SceneKitShapes_iOS-dummy.m */,
+				B2173C3889F0D28F5730752EC5740291 /* Pods-SceneKitShapes_iOS-frameworks.sh */,
+				0E4D5E7B4CDFE51DD0FA45870A2818F5 /* Pods-SceneKitShapes_iOS-Info.plist */,
+				3C7967AFA54F31F84702E88FCC5720F0 /* Pods-SceneKitShapes_iOS-umbrella.h */,
+				B1F56A95A83F937E2620960009E4AA3E /* Pods-SceneKitShapes_iOS.debug.xcconfig */,
+				B0D20B7B5AEC6DB52DB41373CBED1D50 /* Pods-SceneKitShapes_iOS.release.xcconfig */,
+			);
+			name = "Pods-SceneKitShapes_iOS";
+			path = "Target Support Files/Pods-SceneKitShapes_iOS";
+			sourceTree = "<group>";
+		};
+		6555DBAA63E2B1F13706115B3FFFC2EA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B23AA1EBB2DA857FAD3FCE663C378 /* Foundation.framework */,
+				A3CDCC02D87A69349751C3283FAC133F /* SceneKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68D0E33D10A26B1D8B4CCCE775A5DCE8 /* SceneKitShapes */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC0E7ACA4F05CF74DB7F2683B1D155 /* ReplaceMe.swift */,
+				2BFE673923DD61A353FBA5593F3C9D9D /* SCNArrow.swift */,
+				9C89F9EAA022C3011ED298DA1224380C /* Pod */,
+				C7EB32C4218F2E91E4D2B353A44EE87A /* Support Files */,
+			);
+			name = SceneKitShapes;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6EFB174C92A99F449D96508D19BFE160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6555DBAA63E2B1F13706115B3FFFC2EA /* iOS */,
+				FFCCD6805C99EEAE2F8DE4D9F23A1519 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E4D39AA7AE6595DF7C83DE9F2271073 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F0ECB90B6038A67833F165080AEC5B4 /* Pods-SceneKitShapes_iOS */,
+				C9A21FC0ABD2E4850685FD89069A90BA /* Pods-SceneKitShapes_MacOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9C89F9EAA022C3011ED298DA1224380C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				12DB140AE0B804DC0073598172251840 /* LICENSE */,
+				8D46C5CF6D88D11243FFEC253730EF74 /* README.md */,
+				843C4D430AA7BA79E1B891A3AFF2D794 /* SceneKitShapes.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC7005F26F90BAC9E6E50249E0199F4C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68D0E33D10A26B1D8B4CCCE775A5DCE8 /* SceneKitShapes */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C7EB32C4218F2E91E4D2B353A44EE87A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A250BC6D541D303344BAB2C2D61F782 /* SceneKitShapes-iOS.modulemap */,
+				F56EAA219C9B0258F3603C4F4786F525 /* SceneKitShapes-iOS.xcconfig */,
+				D21FD4DF6A187957635FA9AD17F5466A /* SceneKitShapes-iOS-dummy.m */,
+				1A393DAE77DAA9C134818A2B057FDC2E /* SceneKitShapes-iOS-Info.plist */,
+				2C62B8E832D53BE6EADEE8CF081D3B86 /* SceneKitShapes-iOS-prefix.pch */,
+				FA82FDD2CE45490E25936C6AE1998D11 /* SceneKitShapes-iOS-umbrella.h */,
+				0AB613A712A1EBF6103D669D39E19C78 /* SceneKitShapes-macOS.modulemap */,
+				5C65612BCBCC91B3AD6B797CF5DF2E58 /* SceneKitShapes-macOS.xcconfig */,
+				60D9800B94B55943AD4DBF6BC7DBB6B2 /* SceneKitShapes-macOS-dummy.m */,
+				5F5C6067843252454F3BA6356889A71C /* SceneKitShapes-macOS-Info.plist */,
+				803A564E0DD8D1B936E7B9E88952B8D8 /* SceneKitShapes-macOS-prefix.pch */,
+				66D0058DC40D722E1568576A3C7E2FFD /* SceneKitShapes-macOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SceneKitShapes-iOS";
+			sourceTree = "<group>";
+		};
+		C9A21FC0ABD2E4850685FD89069A90BA /* Pods-SceneKitShapes_MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				31A78D49E49F87D9FEAB521937F5E9D1 /* Pods-SceneKitShapes_MacOS.modulemap */,
+				4A476F6560CD82EB5A18EB02FD44E016 /* Pods-SceneKitShapes_MacOS-acknowledgements.markdown */,
+				543D2949A7E96D147E511FA28681AA9D /* Pods-SceneKitShapes_MacOS-acknowledgements.plist */,
+				4EAC5E51C178F6A3890C7B9983EEBB04 /* Pods-SceneKitShapes_MacOS-dummy.m */,
+				1AFA376832AAEAAA7124235A13C937FB /* Pods-SceneKitShapes_MacOS-frameworks.sh */,
+				9B4E743590EDC70362F2F8B38976093A /* Pods-SceneKitShapes_MacOS-Info.plist */,
+				133B9676889538BB066B992AD3FA284F /* Pods-SceneKitShapes_MacOS-umbrella.h */,
+				7DABA8255B12B00A2D34A03CB7710449 /* Pods-SceneKitShapes_MacOS.debug.xcconfig */,
+				9963F72C769F775CD9DF18135D63453F /* Pods-SceneKitShapes_MacOS.release.xcconfig */,
+			);
+			name = "Pods-SceneKitShapes_MacOS";
+			path = "Target Support Files/Pods-SceneKitShapes_MacOS";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BC7005F26F90BAC9E6E50249E0199F4C /* Development Pods */,
+				6EFB174C92A99F449D96508D19BFE160 /* Frameworks */,
+				152C3899C7BC9FAD9A40E924FCB0149C /* Products */,
+				8E4D39AA7AE6595DF7C83DE9F2271073 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FFCCD6805C99EEAE2F8DE4D9F23A1519 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				E50023DA0A9C727AFC307DCB57AE6AC4 /* Cocoa.framework */,
+				6FB9FD15E69D48776662F15F1AEC8AE0 /* SceneKit.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		016B042C1B779D4A9B02A5BFA0A5CD2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E07CBE7B3F25D52B53EE38B5BAB4FDD /* Pods-SceneKitShapes_iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A05FE0825FEE7BE393EF03F84788C62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9642E05272E3026EB090AFEE876E5DA5 /* Pods-SceneKitShapes_MacOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB77716558120553B62AD93C47DDA29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2D7125C3D78D71B83D355FF41AC293 /* SceneKitShapes-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33E64091D161E47DACA36EED3E2528F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5F65AE2E8553E6870522BBF86BA6D7 /* SceneKitShapes-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50D6805B5AEA13CE21DE99DEB8E64E9F /* SceneKitShapes-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93A906C38EB018B6331FB53FDD3EA52 /* Build configuration list for PBXNativeTarget "SceneKitShapes-macOS" */;
+			buildPhases = (
+				A33E64091D161E47DACA36EED3E2528F /* Headers */,
+				7AB0C97EC78FC0023F7B24E4A0098718 /* Sources */,
+				D61EFEB412FFB58E4EC37F216B049C5F /* Frameworks */,
+				B08A218F91E10A2945C53FE30D4BF0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SceneKitShapes-macOS";
+			productName = "SceneKitShapes-macOS";
+			productReference = 440BF7A49B9C3640D1ECFBBC10FEA7AA /* SceneKitShapes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBF8BE58AE9FCD8F2BDEF453FD6A3532 /* Pods-SceneKitShapes_MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1782DA84698B48785A39B8BC8345178D /* Build configuration list for PBXNativeTarget "Pods-SceneKitShapes_MacOS" */;
+			buildPhases = (
+				0A05FE0825FEE7BE393EF03F84788C62 /* Headers */,
+				8882386A1AE719A48B8F0672B61D83BA /* Sources */,
+				308421D0C6C56224DD1757C5B1006D5D /* Frameworks */,
+				4B00BD8A6A9C2D773D8FD2E249E0503E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				509BEA8A06684C7BF18CB03B49BA833B /* PBXTargetDependency */,
+			);
+			name = "Pods-SceneKitShapes_MacOS";
+			productName = "Pods-SceneKitShapes_MacOS";
+			productReference = 08506266EC78BBBEE849BD0F38FA739A /* Pods_SceneKitShapes_MacOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D023114A24BEA6A7107C48FBF474EEFE /* SceneKitShapes-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85287DB24CF2CBAAE4D0C904083862DD /* Build configuration list for PBXNativeTarget "SceneKitShapes-iOS" */;
+			buildPhases = (
+				4FB77716558120553B62AD93C47DDA29 /* Headers */,
+				C3B2D96FDF09EF1FC0EE44B5EBA82E6F /* Sources */,
+				3DA639DC0D9A7BDD6521A6DB9534F6D3 /* Frameworks */,
+				E11110CBA35D4E2C00D4594BB3BB7AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SceneKitShapes-iOS";
+			productName = "SceneKitShapes-iOS";
+			productReference = 89FAC5682E989EA7ED2256EEB7B35A2A /* SceneKitShapes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4E2FA563BB3E2688437147143A010DE /* Pods-SceneKitShapes_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D881D37912A3D277CFACAE334F2954 /* Build configuration list for PBXNativeTarget "Pods-SceneKitShapes_iOS" */;
+			buildPhases = (
+				016B042C1B779D4A9B02A5BFA0A5CD2C /* Headers */,
+				003664A1D5EAB4582FF39BCABF03BD9D /* Sources */,
+				3B0034E3735D81D7FBA5F4882E4BA39F /* Frameworks */,
+				B2CE61370BB4B6DFD507E8F02AFEA564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00B555ACA1EA0F86CE1578DF348E84E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-SceneKitShapes_iOS";
+			productName = "Pods-SceneKitShapes_iOS";
+			productReference = 886765389B851188C9FC7BD6E2EA7145 /* Pods_SceneKitShapes_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 152C3899C7BC9FAD9A40E924FCB0149C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E2FA563BB3E2688437147143A010DE /* Pods-SceneKitShapes_iOS */,
+				BBF8BE58AE9FCD8F2BDEF453FD6A3532 /* Pods-SceneKitShapes_MacOS */,
+				D023114A24BEA6A7107C48FBF474EEFE /* SceneKitShapes-iOS */,
+				50D6805B5AEA13CE21DE99DEB8E64E9F /* SceneKitShapes-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B00BD8A6A9C2D773D8FD2E249E0503E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08A218F91E10A2945C53FE30D4BF0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CE61370BB4B6DFD507E8F02AFEA564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11110CBA35D4E2C00D4594BB3BB7AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		003664A1D5EAB4582FF39BCABF03BD9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81F53B0D1A824E4622D985F95DE4D11 /* Pods-SceneKitShapes_iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB0C97EC78FC0023F7B24E4A0098718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E44575CB02CCBA2026A0C7619E8DC7 /* ReplaceMe.swift in Sources */,
+				9FABE6DA0D26D8219DDD104A026C57B1 /* SceneKitShapes-macOS-dummy.m in Sources */,
+				60B243706B0E28C8B7EBF12FAE10CF6F /* SCNArrow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8882386A1AE719A48B8F0672B61D83BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33843A2B8B8789FF9FFEFC79B7A2D2B /* Pods-SceneKitShapes_MacOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B2D96FDF09EF1FC0EE44B5EBA82E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966EBF21E0BD8FBC0F6B624AE351A983 /* ReplaceMe.swift in Sources */,
+				024697FC625090F58A94BC27A34CE97D /* SceneKitShapes-iOS-dummy.m in Sources */,
+				0AC7F86EFA54881B1DE14635FB891380 /* SCNArrow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00B555ACA1EA0F86CE1578DF348E84E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SceneKitShapes-iOS";
+			target = D023114A24BEA6A7107C48FBF474EEFE /* SceneKitShapes-iOS */;
+			targetProxy = 6451FE488B5AE2C4FD7A8CA0491F13FB /* PBXContainerItemProxy */;
+		};
+		509BEA8A06684C7BF18CB03B49BA833B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SceneKitShapes-macOS";
+			target = 50D6805B5AEA13CE21DE99DEB8E64E9F /* SceneKitShapes-macOS */;
+			targetProxy = 46F2BCE25F3401F9839B8226A3B98AFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12F9BEBA59F99325F5A0A8C15E7F0C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2177A58E3BC961506BC034AAFCFBDE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56EAA219C9B0258F3603C4F4786F525 /* SceneKitShapes-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SceneKitShapes-iOS/SceneKitShapes-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SceneKitShapes-iOS/SceneKitShapes-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SceneKitShapes-iOS/SceneKitShapes-iOS.modulemap";
+				PRODUCT_MODULE_NAME = SceneKitShapes;
+				PRODUCT_NAME = SceneKitShapes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		508F098F6EECAF3E97731C71D12F3C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9963F72C769F775CD9DF18135D63453F /* Pods-SceneKitShapes_MacOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SceneKitShapes_MacOS/Pods-SceneKitShapes_MacOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-SceneKitShapes_MacOS/Pods-SceneKitShapes_MacOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A2ED100A5ABF2A38CCA65CD882F2BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6C6C2F6DFD129113A4A8E286FA0F71EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F56A95A83F937E2620960009E4AA3E /* Pods-SceneKitShapes_iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SceneKitShapes_iOS/Pods-SceneKitShapes_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SceneKitShapes_iOS/Pods-SceneKitShapes_iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8828060A8FF2ED5E4C8CAD197EAB754C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C65612BCBCC91B3AD6B797CF5DF2E58 /* SceneKitShapes-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SceneKitShapes-macOS/SceneKitShapes-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SceneKitShapes-macOS/SceneKitShapes-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/SceneKitShapes-macOS/SceneKitShapes-macOS.modulemap";
+				PRODUCT_MODULE_NAME = SceneKitShapes;
+				PRODUCT_NAME = SceneKitShapes;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B11EEBC5314E7C6A46C31A39F7FFEB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DABA8255B12B00A2D34A03CB7710449 /* Pods-SceneKitShapes_MacOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SceneKitShapes_MacOS/Pods-SceneKitShapes_MacOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-SceneKitShapes_MacOS/Pods-SceneKitShapes_MacOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4A9012FDA72D11AD862C3CCF35C41C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C65612BCBCC91B3AD6B797CF5DF2E58 /* SceneKitShapes-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SceneKitShapes-macOS/SceneKitShapes-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SceneKitShapes-macOS/SceneKitShapes-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/SceneKitShapes-macOS/SceneKitShapes-macOS.modulemap";
+				PRODUCT_MODULE_NAME = SceneKitShapes;
+				PRODUCT_NAME = SceneKitShapes;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E476995A1EC335322E99B7790E0D9BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56EAA219C9B0258F3603C4F4786F525 /* SceneKitShapes-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SceneKitShapes-iOS/SceneKitShapes-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SceneKitShapes-iOS/SceneKitShapes-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SceneKitShapes-iOS/SceneKitShapes-iOS.modulemap";
+				PRODUCT_MODULE_NAME = SceneKitShapes;
+				PRODUCT_NAME = SceneKitShapes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F320BE45BD57315AA8FCA2E73818B997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D20B7B5AEC6DB52DB41373CBED1D50 /* Pods-SceneKitShapes_iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SceneKitShapes_iOS/Pods-SceneKitShapes_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SceneKitShapes_iOS/Pods-SceneKitShapes_iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1782DA84698B48785A39B8BC8345178D /* Build configuration list for PBXNativeTarget "Pods-SceneKitShapes_MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11EEBC5314E7C6A46C31A39F7FFEB9A /* Debug */,
+				508F098F6EECAF3E97731C71D12F3C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F9BEBA59F99325F5A0A8C15E7F0C83 /* Debug */,
+				5A2ED100A5ABF2A38CCA65CD882F2BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D881D37912A3D277CFACAE334F2954 /* Build configuration list for PBXNativeTarget "Pods-SceneKitShapes_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6C2F6DFD129113A4A8E286FA0F71EF /* Debug */,
+				F320BE45BD57315AA8FCA2E73818B997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85287DB24CF2CBAAE4D0C904083862DD /* Build configuration list for PBXNativeTarget "SceneKitShapes-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E476995A1EC335322E99B7790E0D9BF5 /* Debug */,
+				2177A58E3BC961506BC034AAFCFBDE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B93A906C38EB018B6331FB53FDD3EA52 /* Build configuration list for PBXNativeTarget "SceneKitShapes-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A9012FDA72D11AD862C3CCF35C41C2 /* Debug */,
+				8828060A8FF2ED5E4C8CAD197EAB754C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

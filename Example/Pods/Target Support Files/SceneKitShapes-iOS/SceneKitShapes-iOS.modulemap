@@ -1,0 +1,6 @@
+framework module SceneKitShapes {
+  umbrella header "SceneKitShapes-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

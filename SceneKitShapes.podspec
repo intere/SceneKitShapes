@@ -21,16 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Eric Internicola/SceneKitShapes'
+  s.homepage         = 'https://github.com/intere/SceneKitShapes'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Eric Internicola' => 'intere@gmail.com' }
-  s.source           = { :git => 'https://github.com/Eric Internicola/SceneKitShapes.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/intere/SceneKitShapes.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.12'
 
-  s.source_files = 'SceneKitShapes/Classes/**/*'
+  s.source_files = 'Sources/Classes/**/*'
+  
+
+  s.frameworks = 'SceneKit'
   
   # s.resource_bundles = {
   #   'SceneKitShapes' => ['SceneKitShapes/Assets/*.png']

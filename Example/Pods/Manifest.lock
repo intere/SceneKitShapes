@@ -1,0 +1,16 @@
+PODS:
+  - SceneKitShapes (0.1.0)
+
+DEPENDENCIES:
+  - SceneKitShapes (from `../`)
+
+EXTERNAL SOURCES:
+  SceneKitShapes:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SceneKitShapes: 6f1380d1619fba85f80c35625513821bf758a5d8
+
+PODFILE CHECKSUM: 042f672fa34450da1225ffb9954d817f3e614830
+
+COCOAPODS: 1.7.2

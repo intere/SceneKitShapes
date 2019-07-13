@@ -1,11 +1,18 @@
 use_frameworks!
 
-target 'SceneKitShapes_Example' do
+target 'SceneKitShapes_iOS' do
+  platform :ios, '11.0'
   pod 'SceneKitShapes', :path => '../'
+  project 'SceneKitShapes_iOS.xcodeproj'
+  workspace 'SceneKitShapesExample.xcworkspace'
 
-  target 'SceneKitShapes_Tests' do
-    inherit! :search_paths
+end
 
-    
-  end
+
+target 'SceneKitShapes_MacOS' do
+  platform :osx, '10.13'
+  pod 'SceneKitShapes', :path => '../'
+  project 'SceneKitShapes_MacOS.xcodeproj'
+  workspace 'SceneKitShapesExample.xcworkspace'
+
 end

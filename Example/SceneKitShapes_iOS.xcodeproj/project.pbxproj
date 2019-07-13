@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3191EA0A78141E69C8002D42 /* Pods_SceneKitShapes_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B4E4CB4AD9F3364FB5FF61 /* Pods_SceneKitShapes_iOS.framework */; };
+		3625AE6822DA55F100452769 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3625AE5E22DA55F100452769 /* art.scnassets */; };
+		3625AE6922DA55F100452769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3625AE5F22DA55F100452769 /* Assets.xcassets */; };
+		3625AE6A22DA55F100452769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625AE6022DA55F100452769 /* AppDelegate.swift */; };
+		3625AE6B22DA55F100452769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3625AE6222DA55F100452769 /* LaunchScreen.storyboard */; };
+		3625AE6C22DA55F100452769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3625AE6422DA55F100452769 /* Main.storyboard */; };
+		3625AE6D22DA55F100452769 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625AE6622DA55F100452769 /* GameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3625AE2622DA541200452769 /* SceneKitShapes_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneKitShapes_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3625AE5D22DA55F100452769 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3625AE5E22DA55F100452769 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		3625AE5F22DA55F100452769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3625AE6022DA55F100452769 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3625AE6322DA55F100452769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3625AE6522DA55F100452769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		3625AE6622DA55F100452769 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9C574053426A69B41E4572CF /* Pods-SceneKitShapes_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SceneKitShapes_iOS.release.xcconfig"; path = "Target Support Files/Pods-SceneKitShapes_iOS/Pods-SceneKitShapes_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B426A9015289540E51960DFA /* Pods-SceneKitShapes_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SceneKitShapes_iOS.debug.xcconfig"; path = "Target Support Files/Pods-SceneKitShapes_iOS/Pods-SceneKitShapes_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E9B4E4CB4AD9F3364FB5FF61 /* Pods_SceneKitShapes_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SceneKitShapes_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3625AE2322DA541200452769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3191EA0A78141E69C8002D42 /* Pods_SceneKitShapes_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3625AE1D22DA541200452769 = {
+			isa = PBXGroup;
+			children = (
+				3625AE2822DA541200452769 /* SceneKitShapes_iOS */,
+				3625AE2722DA541200452769 /* Products */,
+				CA0F643F2518AD7223019C6B /* Pods */,
+				7D90A7851FFCABC8EF5D8E6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3625AE2722DA541200452769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3625AE2622DA541200452769 /* SceneKitShapes_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3625AE2822DA541200452769 /* SceneKitShapes_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3625AE6022DA55F100452769 /* AppDelegate.swift */,
+				3625AE5E22DA55F100452769 /* art.scnassets */,
+				3625AE5F22DA55F100452769 /* Assets.xcassets */,
+				3625AE6122DA55F100452769 /* Base.lproj */,
+				3625AE6622DA55F100452769 /* GameViewController.swift */,
+				3625AE5D22DA55F100452769 /* Info.plist */,
+			);
+			path = SceneKitShapes_iOS;
+			sourceTree = "<group>";
+		};
+		3625AE6122DA55F100452769 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3625AE6222DA55F100452769 /* LaunchScreen.storyboard */,
+				3625AE6422DA55F100452769 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		7D90A7851FFCABC8EF5D8E6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9B4E4CB4AD9F3364FB5FF61 /* Pods_SceneKitShapes_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA0F643F2518AD7223019C6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B426A9015289540E51960DFA /* Pods-SceneKitShapes_iOS.debug.xcconfig */,
+				9C574053426A69B41E4572CF /* Pods-SceneKitShapes_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3625AE2522DA541200452769 /* SceneKitShapes_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3625AE3A22DA541300452769 /* Build configuration list for PBXNativeTarget "SceneKitShapes_iOS" */;
+			buildPhases = (
+				F72BF6F430BA988BB0AAE005 /* [CP] Check Pods Manifest.lock */,
+				3625AE2222DA541200452769 /* Sources */,
+				3625AE2322DA541200452769 /* Frameworks */,
+				3625AE2422DA541200452769 /* Resources */,
+				57940217E8F4D74A76AD9A9E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SceneKitShapes_iOS;
+			productName = SceneKitShapes_iOS;
+			productReference = 3625AE2622DA541200452769 /* SceneKitShapes_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3625AE1E22DA541200452769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = iColasoft;
+				TargetAttributes = {
+					3625AE2522DA541200452769 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 3625AE2122DA541200452769 /* Build configuration list for PBXProject "SceneKitShapes_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3625AE1D22DA541200452769;
+			productRefGroup = 3625AE2722DA541200452769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3625AE2522DA541200452769 /* SceneKitShapes_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3625AE2422DA541200452769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3625AE6C22DA55F100452769 /* Main.storyboard in Resources */,
+				3625AE6B22DA55F100452769 /* LaunchScreen.storyboard in Resources */,
+				3625AE6922DA55F100452769 /* Assets.xcassets in Resources */,
+				3625AE6822DA55F100452769 /* art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57940217E8F4D74A76AD9A9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SceneKitShapes_iOS/Pods-SceneKitShapes_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SceneKitShapes_iOS/Pods-SceneKitShapes_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SceneKitShapes_iOS/Pods-SceneKitShapes_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72BF6F430BA988BB0AAE005 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SceneKitShapes_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3625AE2222DA541200452769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3625AE6D22DA55F100452769 /* GameViewController.swift in Sources */,
+				3625AE6A22DA55F100452769 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3625AE6222DA55F100452769 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3625AE6322DA55F100452769 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3625AE6422DA55F100452769 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3625AE6522DA55F100452769 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3625AE3822DA541300452769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3625AE3922DA541300452769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3625AE3B22DA541300452769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B426A9015289540E51960DFA /* Pods-SceneKitShapes_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 268S5GJFWZ;
+				INFOPLIST_FILE = SceneKitShapes_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icolasoft.SceneKitShapes-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3625AE3C22DA541300452769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C574053426A69B41E4572CF /* Pods-SceneKitShapes_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 268S5GJFWZ;
+				INFOPLIST_FILE = SceneKitShapes_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icolasoft.SceneKitShapes-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3625AE2122DA541200452769 /* Build configuration list for PBXProject "SceneKitShapes_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3625AE3822DA541300452769 /* Debug */,
+				3625AE3922DA541300452769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3625AE3A22DA541300452769 /* Build configuration list for PBXNativeTarget "SceneKitShapes_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3625AE3B22DA541300452769 /* Debug */,
+				3625AE3C22DA541300452769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3625AE1E22DA541200452769 /* Project object */;
+}
