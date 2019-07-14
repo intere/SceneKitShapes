@@ -15,10 +15,12 @@
     "git": "https://github.com/intere/SceneKitShapes.git",
     "tag": "0.1.0"
   },
+  "swift_versions": "4.2",
   "platforms": {
     "ios": "8.0",
     "osx": "10.12"
   },
   "source_files": "Sources/Classes/**/*",
-  "frameworks": "SceneKit"
+  "frameworks": "SceneKit",
+  "swift_version": "4.2"
 }

@@ -563,37 +563,39 @@
 			};
 			name = Debug;
 		};
-		2177A58E3BC961506BC034AAFCFBDE85 /* Release */ = {
+		38A3987A1105F6597CB39A221FEAC463 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F56EAA219C9B0258F3603C4F4786F525 /* SceneKitShapes-iOS.xcconfig */;
+			baseConfigurationReference = 5C65612BCBCC91B3AD6B797CF5DF2E58 /* SceneKitShapes-macOS.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SceneKitShapes-iOS/SceneKitShapes-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SceneKitShapes-iOS/SceneKitShapes-iOS-Info.plist";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SceneKitShapes-macOS/SceneKitShapes-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SceneKitShapes-macOS/SceneKitShapes-macOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SceneKitShapes-iOS/SceneKitShapes-iOS.modulemap";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/SceneKitShapes-macOS/SceneKitShapes-macOS.modulemap";
 				PRODUCT_MODULE_NAME = SceneKitShapes;
 				PRODUCT_NAME = SceneKitShapes;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -738,7 +740,7 @@
 			};
 			name = Debug;
 		};
-		8828060A8FF2ED5E4C8CAD197EAB754C /* Release */ = {
+		8C398122117535FA93B0B2095B08CFDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C65612BCBCC91B3AD6B797CF5DF2E58 /* SceneKitShapes-macOS.xcconfig */;
 			buildSettings = {
@@ -770,11 +772,11 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		B11EEBC5314E7C6A46C31A39F7FFEB9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -816,45 +818,7 @@
 			};
 			name = Debug;
 		};
-		B4A9012FDA72D11AD862C3CCF35C41C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C65612BCBCC91B3AD6B797CF5DF2E58 /* SceneKitShapes-macOS.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/SceneKitShapes-macOS/SceneKitShapes-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SceneKitShapes-macOS/SceneKitShapes-macOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/SceneKitShapes-macOS/SceneKitShapes-macOS.modulemap";
-				PRODUCT_MODULE_NAME = SceneKitShapes;
-				PRODUCT_NAME = SceneKitShapes;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E476995A1EC335322E99B7790E0D9BF5 /* Debug */ = {
+		DBE099C59FA3CF0576903598DC6412A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F56EAA219C9B0258F3603C4F4786F525 /* SceneKitShapes-iOS.xcconfig */;
 			buildSettings = {
@@ -882,12 +846,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		F320BE45BD57315AA8FCA2E73818B997 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -928,6 +893,41 @@
 			};
 			name = Release;
 		};
+		F59B4BA9287EE00DB55B05AF0B03F909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56EAA219C9B0258F3603C4F4786F525 /* SceneKitShapes-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SceneKitShapes-iOS/SceneKitShapes-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SceneKitShapes-iOS/SceneKitShapes-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SceneKitShapes-iOS/SceneKitShapes-iOS.modulemap";
+				PRODUCT_MODULE_NAME = SceneKitShapes;
+				PRODUCT_NAME = SceneKitShapes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -961,8 +961,8 @@
 		85287DB24CF2CBAAE4D0C904083862DD /* Build configuration list for PBXNativeTarget "SceneKitShapes-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E476995A1EC335322E99B7790E0D9BF5 /* Debug */,
-				2177A58E3BC961506BC034AAFCFBDE85 /* Release */,
+				F59B4BA9287EE00DB55B05AF0B03F909 /* Debug */,
+				DBE099C59FA3CF0576903598DC6412A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -970,8 +970,8 @@
 		B93A906C38EB018B6331FB53FDD3EA52 /* Build configuration list for PBXNativeTarget "SceneKitShapes-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4A9012FDA72D11AD862C3CCF35C41C2 /* Debug */,
-				8828060A8FF2ED5E4C8CAD197EAB754C /* Release */,
+				8C398122117535FA93B0B2095B08CFDF /* Debug */,
+				38A3987A1105F6597CB39A221FEAC463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
